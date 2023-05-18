@@ -1,0 +1,34 @@
+h1 {
+    color: rgb(215, 120, 4);
+    font-size: 50px;
+    text-align: center;
+}
+/*probando colores y tamaños*/
+p{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+#primera-noticia {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+#segunda-noticia {
+    color: rgb(63, 0, 112);
+    font-size: 20px;
+    text-align: center;
+}
+.Noticias{
+    color: rgb(0, 149, 107);
+    font-size: 40px;
+    text-align: center;
+}
+*.warning{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+.autor, .fecha, .ubicacion{
+    text-decoration: underline;
+}

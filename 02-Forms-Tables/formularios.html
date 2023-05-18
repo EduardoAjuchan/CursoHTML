@@ -8,17 +8,36 @@
         <form action = "resultados.html" method = "GET">
             <div>
             <lable for ="nombre">Nombre</lable>
-            <input name = "nombre" id = "nombre">
+            <input type = "text" name = "nombre" id = "nombre">
         </div>
+        <br>
+        <div>
+            <lable for ="email">Correo</lable>
+            <input type = "email" name = "email" id = "email">
+        </div>
+        <br>
+        <div>
+            <lable for ="contraseña">Contraseña</lable>
+            <input type = "password" name = "contraseña" id ="contraseña">
+        </div>
+        <br>
+        <div>
+            <lable for ="edad">Tu edad</lable>
+            <input type = "number" name = "edad" id ="edad" min = "0" max = " 200" step = "5">
+        </div>
+        <br>
+        <div>
+            <lable for ="nacimiento">Tu fecha de nacimiento</lable>
+            <input type = "date" name = "nacimiento" id ="nacimiento">
+        </div>
+        <br>
         <div>
             <lable for ="comentarios">comentarios</lable>
             <textarea name ="comentarios" id = "comentarios"></textarea>
         </div>
-        <div>
-            <lable for ="contraseña">Contraseña</lable>
-            <input name = "contraseña" id ="contraseña">
-        </div>
-            <button>Ingresar</button>
+       <br> 
+            <button type = "submit">Ingresar</button>
+            <button type = "reset">Borrar</button>
         </form>
     </body>
 </html>

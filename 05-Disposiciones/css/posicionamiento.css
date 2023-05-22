@@ -1,0 +1,39 @@
+div{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+/*Se posiciona en relacion en relacion al 
+posicionamiento original*/
+.relative{
+    position:relative;
+    left: 80px;
+}
+/*Se posiciona en relacion al viewport / a la pantalla*/
+.fixed{
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    background-color: greenyellow;
+    z-index: 10;
+}
+.absolute{
+    position:absolute;
+    top: 5px;
+    right: 0px;
+}
+.relative-contenedor{
+    position: relative;
+    width: 400px;
+    height: 800px;
+    background-color: rgb(147, 47, 255);
+}
+/*Se mueve pero al llegar a la posición indicada se queda "pegado"*/
+.sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: darksalmon;
+    color: white;
+}

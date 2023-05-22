@@ -1,0 +1,10 @@
+/* CSS para el primer elemento de cada lista */
+#elemento-1, ol li:first-child {
+    color: red;
+  }
+  
+  /* CSS para el primer elemento de la primer lista */
+  #titulo + ul li:first-child {
+    font-size: 2rem;
+  }
+  

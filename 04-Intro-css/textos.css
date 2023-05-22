@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+html{
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    font-style:italic;
+}

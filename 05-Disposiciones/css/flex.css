@@ -1,0 +1,29 @@
+/*https://codepen.io/enxaneta/full/adLPwv/*/
+.flex{
+    display: flex;
+    background-color: yellowgreen;
+    height: 300px;
+    justify-content:space-around;
+    align-items: center;
+}
+.contenido-1{
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid rgb(34, 0, 253);
+
+}
+.contenido-2{
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid rgb(34, 0, 253);
+
+}
+.contenido-3{
+    background-color: white;
+   /* height: 200px;*/
+    width: 100px;
+    border: 1px solid rgb(34, 0, 253);
+
+}

@@ -19,6 +19,7 @@ html{
 }
 .imagen-galeria{
     width: 300px;
+    border-radius: 30px;
     
 }
 .imagen-galeria:hover{

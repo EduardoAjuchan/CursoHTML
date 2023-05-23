@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.encabezado{
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+.Galeria{
+    
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.imagen-galeria{
+    width: 300px;
+    
+}
+.imagen-galeria:hover{
+    transition: transform 0.2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}

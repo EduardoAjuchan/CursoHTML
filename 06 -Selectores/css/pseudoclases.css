@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+.hover{
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+    transition: transform 0.5s;
+}
+.hover:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+.listado{
+    padding:15px;
+    background-color: aquamarine;
+
+}
+.listado  p:first-child{ /* Selecciona el primer elemento p dentro de listado */
+    color:white;
+}
+a:link{ /* Selecciona los enlaces que no han sido visitados */
+    color:deeppink;
+    text-decoration: none;
+}
+a:visited{ /* Selecciona los enlaces que han sido visitados */
+    color:crimson;
+    text-decoration: none;
+}
+a:hover{ /* Selecciona los enlaces cuando el mouse esta encima */
+    color:pink;
+    text-decoration: none;
+}
+a:active{ /* Selecciona los enlaces cuando se esta haciendo click */
+    color:greenyellow;
+    text-decoration: none;
+}

@@ -1,29 +1,20 @@
-.hover-button::after {
-    content: "Pasa por encima";
-  }
-  
-  .hover-button:hover::after {
-    content: "¡Hecho!";
-  }
-  
-  .hover-button {
+.hover-button {
     color: white;
-    background-color: green;
+    background-color: blue;
     width: 150px;
     height: 50px;
     border: none;
-    position: relative;
   }
   
   .hover-button::after {
     content: "Pasa por encima";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
   
   .hover-button:hover::after {
     content: "¡Hecho!";
+  }
+  
+  .hover-button:hover {
+    background-color: green;
   }
   

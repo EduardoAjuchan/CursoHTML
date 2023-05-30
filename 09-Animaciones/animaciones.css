@@ -1,0 +1,44 @@
+.padre{
+    width: 400px;
+    height: 400px;  
+    background-color: blue;
+}
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    animation: traslacion 1.5s ease-in-out infinite forwards alternate; /*cuantas veces se desea hacer la acción, como debe hacerse y la duracion, Alternate
+    PAra que alterne la forma en la que se hace la animacion*/
+   /* transition: transform 1s ease-in-out;  propiedad duracion y que afecta y la forma en la que comienza y termina la animacion, primer valor de tiempo 
+    como duracion y el segundo como un delay, TRANSICIONES*/
+}
+.padre:hover .hijo{
+   /* transform: translateX(100%);
+    background-color: blueviolet;*/
+   animation-play-state: paused; /*Para que se detenga la animacion*/
+    
+}
+@keyframes traslacion{
+    0% {
+        background-color: beige;
+        transform: translate(0, 0);
+      }
+      25% {
+        
+        transform: translateX(100%);
+      }
+      50% {
+       
+        transform: translate(100%, 100%);
+        
+      }
+      75% {
+        
+        transform: translateY(100%);
+      }
+      100% {
+        background-color: brown;
+        transform: translate(0, 0);
+        
+      }
+    }

@@ -1,0 +1,27 @@
+body{
+    padding:20px;
+    margin:0px;
+}
+.escenario-1{
+    width:100%;
+}
+.escenario-2{
+    width:50%;
+}
+.escenario{
+    margin:10px 0px;
+    border:1px solid #ccc;
+    padding:10px;
+}
+.px{ /*es un valor fijo*/
+    background-color: green;
+    width:200px;
+}
+.porcentaje{ /*hace referencia al ancho del contenedor*/
+    background: red;
+    width: 50%;
+}
+.view{ /*Hace referencia al ancho de la pantalla*/
+    background: blue; 
+    width: 50vw;    
+}

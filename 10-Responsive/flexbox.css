@@ -1,0 +1,15 @@
+/*https://codepen.io/enxaneta/full/adLPwv*/
+.contenedor{
+    height: 5rem;
+    background-color: yellowgreen;
+    padding:0.25rem;
+    display: flex;
+    gap:0.5rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: salmon;
+    padding:0.25rem;
+}
